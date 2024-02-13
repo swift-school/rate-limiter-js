@@ -34,3 +34,12 @@ export class Limiter {
   }
   limit(school: string): void {}
 }
+
+// const lmt = new Limiter();
+// lmt.limited("school"); // returns false
+// for (let i = 0; i < 5; i++) {
+//   lmt.limit("school");
+// }
+// lmt.limited("school"); // returns true
+// // wait two seconds...
+// lmt.limited("school"); // returns false
