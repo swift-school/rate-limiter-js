@@ -1,8 +1,6 @@
 import { Limiter } from "./index";
 
 test('Limiter', async () => {
-  // pause time
-
   // create a rate limiter
   const lmtr = new Limiter();
   expect(lmtr.limited("school")).toBe(false);
